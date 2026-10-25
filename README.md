@@ -51,7 +51,7 @@ public sealed record Developer
 ## 🗺️ STORY MODE — percorso
 
 | 📅 | Livello | Dove |
-|---|---|---|
+| --- | --- | --- |
 | **2025 → oggi** | 💼 **Full-Stack Developer** — .NET 9/10, Blazor, DevExpress, SignalR, FoxPro | VALVES S.r.l. |
 | 2025 | 🎓 Stage Full-Stack, concluso con **assunzione** | VALVES S.r.l. |
 | 2024 – 2025 | 🎮 **Master in Game Design & Development** — Blender, Unreal Engine, pipeline 3D | Click Academy |
@@ -110,16 +110,18 @@ public sealed record Developer
   <a href="https://github.com/sirAlfry/Inventory"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=Inventory&theme=radical&hide_border=true" alt="Inventory"/></a>
   <a href="https://github.com/sirAlfry/retro-arcade-collection-unity"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=retro-arcade-collection-unity&theme=radical&hide_border=true" alt="Retro Arcade Unity"/></a>
   <a href="https://github.com/sirAlfry/il-prezzo-invisibile-del-prompt"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=il-prezzo-invisibile-del-prompt&theme=radical&hide_border=true" alt="Il prezzo invisibile del prompt"/></a>
+  <a href="https://github.com/sirAlfry/dehazing-project"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=dehazing-project&theme=radical&hide_border=true" alt="Single Image Dehazing"/></a>
 </p>
 
 | Progetto | Cos'è | Stack |
-|---|---|---|
+| --- | --- | --- |
 | 🕹️ **[Retro Arcade Collection](https://github.com/sirAlfry/retro-arcade-collection-phaser)** | 9 classici arcade in un launcher synthwave, chiptune sintetizzata al volo, AI Minimax + Alpha-Beta imbattibile, PWA giocabile offline anche da smartphone | JavaScript · Phaser 4 · Web Audio |
 | 🐍 **[Retro Arcade (Python)](https://github.com/sirAlfry/retro-arcade-collection)** | L'edizione originale desktop, con motore AI condiviso e test automatici | Python · Pygame |
 | 🧊 **[Retro Arcade (Unity)](https://github.com/sirAlfry/retro-arcade-collection-unity)** | La stessa collezione portata in Unity | C# · Unity |
 | 🌸 **[Japanese Garden](https://github.com/sirAlfry/Japanese-Garden)** | Giardino low poly del periodo Edo esplorabile in prima persona, UV riscritte via script Python/bmesh, audio 100% originale | Unity 6 · URP · Blender · C# |
 | 🎒 **[Inventory System](https://github.com/sirAlfry/Inventory)** | Inventario in prima persona con drag & drop, item come ScriptableObject, Observer e Open/Closed | Unity 6 · C# · Input System |
 | 🌍 **[Il prezzo invisibile del prompt](https://github.com/sirAlfry/il-prezzo-invisibile-del-prompt)** | Opera audiovisiva interattiva sull'impatto ambientale dell'IA: energia, acqua e CO₂ di ogni prompt | Processing · dati CSV |
+| 🌫️ **[Single Image Dehazing](https://github.com/sirAlfry/dehazing-project)** | Rimozione della nebbia da una singola foto con **Dark Channel Prior** e **Guided Filter** scritto da zero, valutata con PSNR/SSIM su 5 benchmark (1.130 immagini, fino a +7,8 dB) e report generato in automatico — progetto ELIVA, UniTo | Python · OpenCV · NumPy · Docker |
 
 <p align="center">
   <a href="https://siralfry.github.io/retro-arcade-collection-phaser/">
