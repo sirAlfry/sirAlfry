@@ -132,41 +132,19 @@ public sealed record Developer
 
 ---
 
-## 🏆 HIGH SCORES — statistiche
+## 🏆 HIGH SCORES — linguaggi più usati nei miei repository
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sirAlfry&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="Statistiche GitHub"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sirAlfry&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Linguaggi più usati"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=sirAlfry&theme=radical&hide_border=true&locale=it" alt="Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sirAlfry&bg_color=0d0221&color=f72585&line=7209b7&point=ffffff&area=true&area_color=7209b7&hide_border=true&custom_title=Livelli%20completati%20negli%20ultimi%2031%20giorni" alt="Grafico attività"/>
-</p>
-
-<!-- Grafico 3D dei contributi: generato dal workflow .github/workflows/profile-3d.yml -->
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Contributi in 3D"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sirAlfry&layout=compact&theme=radical&hide_border=true&langs_count=8&card_width=400" alt="Linguaggi più usati"/>
 </p>
 
 ---
 
-## 🐍 GAME OVER?
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sirAlfry/sirAlfry/output/github-snake-neon-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sirAlfry/sirAlfry/output/github-snake.svg" />
-    <img alt="Snake che mangia i miei contributi" src="https://raw.githubusercontent.com/sirAlfry/sirAlfry/output/github-snake.svg" />
-  </picture>
-</p>
+## 🕹️ CONTINUE? 10… 9… 8…
 
 <p align="center">
   <b>Ti va di collaborare o fare due chiacchiere su .NET, game dev o XR?</b><br/>
-  Scrivimi su <a href="https://www.linkedin.com/in/alfredo-de-donno-46b178210">LinkedIn</a> oppure lascia una ⭐ a un progetto: il serpente ringrazia.
+  Scrivimi su <a href="https://www.linkedin.com/in/alfredo-de-donno-46b178210">LinkedIn</a> oppure lascia una ⭐ a un progetto: ogni stella è un gettone in più.
 </p>
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
