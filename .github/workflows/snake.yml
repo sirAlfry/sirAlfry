@@ -1,0 +1,37 @@
+# Genera il serpente che "mangia" il grafico dei contributi
+# e lo pubblica nel branch "output" del repository del profilo.
+# Documentazione: https://github.com/Platane/snk
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"   # ogni 12 ore
+  workflow_dispatch:          # pulsante "Run workflow" nella scheda Actions
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Genera gli SVG del serpente
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-neon-dark.svg?palette=github-dark&color_snake=#f72585&color_dots=#161b22,#3a0ca3,#7209b7,#b5179e,#f72585
+
+      - name: Pubblica nel branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

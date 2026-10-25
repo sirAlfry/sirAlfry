@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:7209b7,100:f72585&height=230&section=header&text=Alfredo%20De%20Donno&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Developer%20%E2%80%A2%20Game%20%26%20XR%20Developer&descSize=18&descAlignY=58" alt="Alfredo De Donno" />
+  <img src="./assets/header.svg" width="100%" alt="Alfredo De Donno" />
 </p>
 
 <p align="center">
@@ -171,5 +171,5 @@ public sealed record Developer
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f72585,50:7209b7,100:0d0221&height=120&section=footer" alt="Footer" />
+  <img src="./assets/footer.svg" width="100%" alt="Footer" />
 </p>
