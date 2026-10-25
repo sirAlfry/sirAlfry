@@ -42,7 +42,7 @@ public sealed record Developer
 
 - 🏢 Sviluppo **moduli gestionali** con **.NET 9/10, Blazor e DevExpress**
 - ⚡ Curo un'infrastruttura **real-time con SignalR** che fa dialogare le app web e SaaS aziendali
-- 🦊 Tengo in vita il **legacy FoxPro 9** e lo faccio convivere con il nuovo stack .NET
+- 🔄 Lavoro in un contesto di **migrazione**: VALVES sta portando i suoi gestionali da **Visual FoxPro** a **.NET, Blazor e DevExpress**
 - 🎮 Ho un **Master in Game Design & Development**: modellazione e rigging in Blender, gameplay in Unreal e Unity
 - 📲 Racconto programmazione e informatica su Instagram: [**@sir_alfry**](https://www.instagram.com/sir_alfry)
 
