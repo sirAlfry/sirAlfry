@@ -1,0 +1,43 @@
+# Genera in casa le card dei repository e dei linguaggi (cartella assets/cards/)
+# al posto di github-readme-stats.vercel.app, la cui istanza pubblica è in pausa.
+# Script: scripts/generate_cards.py (solo libreria standard di Python)
+
+name: Profile Cards
+
+on:
+  schedule:
+    - cron: "29 4 * * *"      # una volta al giorno
+  workflow_dispatch:          # pulsante "Run workflow" nella scheda Actions
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate_cards.py
+      - .github/workflows/profile-cards.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Genera le card SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CARDS_USER: ${{ github.repository_owner }}
+        run: python scripts/generate_cards.py
+
+      - name: Commit dei file generati
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets/cards/
+          git diff --cached --quiet || git commit -m "chore: aggiorna card del profilo"
+          git push

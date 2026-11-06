@@ -113,14 +113,14 @@ public sealed record Developer
 ## 🎮 SELECT GAME — i miei repository
 
 <p align="center">
-  <a href="https://github.com/sirAlfry/retro-arcade-collection-phaser"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=retro-arcade-collection-phaser&theme=radical&hide_border=true" alt="Retro Arcade Phaser"/></a>
-  <a href="https://github.com/sirAlfry/Japanese-Garden"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=Japanese-Garden&theme=radical&hide_border=true" alt="Japanese Garden"/></a>
-  <a href="https://github.com/sirAlfry/retro-arcade-collection"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=retro-arcade-collection&theme=radical&hide_border=true" alt="Retro Arcade Python"/></a>
-  <a href="https://github.com/sirAlfry/Inventory"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=Inventory&theme=radical&hide_border=true" alt="Inventory"/></a>
-  <a href="https://github.com/sirAlfry/retro-arcade-collection-unity"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=retro-arcade-collection-unity&theme=radical&hide_border=true" alt="Retro Arcade Unity"/></a>
-  <a href="https://github.com/sirAlfry/il-prezzo-invisibile-del-prompt"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=il-prezzo-invisibile-del-prompt&theme=radical&hide_border=true" alt="Il prezzo invisibile del prompt"/></a>
-  <a href="https://github.com/sirAlfry/dehazing-project"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=dehazing-project&theme=radical&hide_border=true" alt="Single Image Dehazing"/></a>
-  <a href="https://github.com/sirAlfry/astar-to-wumpus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=sirAlfry&repo=astar-to-wumpus&theme=radical&hide_border=true" alt="A* to Wumpus"/></a>
+  <a href="https://github.com/sirAlfry/retro-arcade-collection-phaser"><img src="./assets/cards/pin-retro-arcade-collection-phaser.svg" alt="Retro Arcade Phaser"/></a>
+  <a href="https://github.com/sirAlfry/Japanese-Garden"><img src="./assets/cards/pin-Japanese-Garden.svg" alt="Japanese Garden"/></a>
+  <a href="https://github.com/sirAlfry/retro-arcade-collection"><img src="./assets/cards/pin-retro-arcade-collection.svg" alt="Retro Arcade Python"/></a>
+  <a href="https://github.com/sirAlfry/Inventory"><img src="./assets/cards/pin-Inventory.svg" alt="Inventory"/></a>
+  <a href="https://github.com/sirAlfry/retro-arcade-collection-unity"><img src="./assets/cards/pin-retro-arcade-collection-unity.svg" alt="Retro Arcade Unity"/></a>
+  <a href="https://github.com/sirAlfry/il-prezzo-invisibile-del-prompt"><img src="./assets/cards/pin-il-prezzo-invisibile-del-prompt.svg" alt="Il prezzo invisibile del prompt"/></a>
+  <a href="https://github.com/sirAlfry/dehazing-project"><img src="./assets/cards/pin-dehazing-project.svg" alt="Single Image Dehazing"/></a>
+  <a href="https://github.com/sirAlfry/astar-to-wumpus"><img src="./assets/cards/pin-astar-to-wumpus.svg" alt="A* to Wumpus"/></a>
 </p>
 
 | Progetto | Cos'è | Stack |
@@ -148,7 +148,7 @@ public sealed record Developer
 ## 🏆 HIGH SCORES — linguaggi più usati nei miei repository
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sirAlfry&layout=compact&theme=radical&hide_border=true&langs_count=8&card_width=400" alt="Linguaggi più usati"/>
+  <img src="./assets/cards/top-langs.svg" alt="Linguaggi più usati"/>
 </p>
 
 ---
